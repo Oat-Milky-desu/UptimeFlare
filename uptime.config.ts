@@ -19,7 +19,10 @@ const workerConfig = {
       id: 'PW_monitor',
       name: 'Personal Website',
       method: 'GET',
-      target: 'https://oatmilky.top'
+      target: 'https://oatmilky.top',
+      headers: {
+                'User-Agent': 'Uptimeflare'
+               },
     },
     {
       id: 'Tencent_VPS',
