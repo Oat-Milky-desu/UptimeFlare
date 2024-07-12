@@ -16,23 +16,10 @@ const workerConfig = {
   monitors: [
     // Example HTTP Monitor
     {
-      id: 'Blog_monitor',
-      name: 'Blog',
-      method: 'post',
-      target: 'https://blog.oatmilky.top'
-    },
-    {
-      id: 'Google_monitor',
-      name: 'Google',
-      method: 'TCP_PING',
-      target: 'https://www.google.com'
-    },
-    {
-      id: 'BaiDu_monitor',
-      name: 'Baidu',
+      id: 'PW_monitor',
+      name: 'Personal Website',
       method: 'GET',
-      target: 'https://www.baidu.com'
-    },
+      target: 'https://oatmilky.top'
     {
       id: 'Tencent_VPS',
       name: 'Tencent Cloud',
