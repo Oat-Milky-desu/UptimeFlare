@@ -35,9 +35,21 @@ const workerConfig = {
     },
     {
       id: 'Tencent_VPS',
-      name: 'Tencent Cloud',
+      name: 'Tencent Cloud_China',
       method: 'TCP_PING',
       target: '118.25.107.84:22'
+    },
+    {
+      id: 'Racknerd_VPS',
+      name: 'Racknerd_America',
+      method: 'TCP_PING',
+      target: '107.173.34.140:22'
+    },
+    {
+      id: 'Yuyun_VPS',
+      name: 'Yu Yun_America',
+      method: 'TCP_PING',
+      target: '154.64.230.38:22'
     },
   ],
   notification: {
