@@ -18,14 +18,14 @@ const workerConfig = {
     {
       id: 'Blog_monitor',
       name: 'Blog',
-      method: 'POST',
-      target: 'https://blog.oatmilky.top',
+      method: 'GET',
+      target: 'https://blog.oatmilky.top'
     },
     {
       id: 'Google_monitor',
       name: 'Google',
-      method: 'POST',
-      target: 'https://www.google.com',
+      method: 'GET',
+      target: 'https://www.google.com'
     },
     {
       id: 'Tencent_VPS',
