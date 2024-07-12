@@ -18,14 +18,20 @@ const workerConfig = {
     {
       id: 'Blog_monitor',
       name: 'Blog',
-      method: 'GET',
+      method: 'post',
       target: 'https://blog.oatmilky.top'
     },
     {
       id: 'Google_monitor',
       name: 'Google',
-      method: 'GET',
+      method: 'TCP_PING',
       target: 'https://www.google.com'
+    },
+    {
+      id: 'BaiDu_monitor',
+      name: 'Baidu',
+      method: 'GET',
+      target: 'https://www.baidu.com'
     },
     {
       id: 'Tencent_VPS',
