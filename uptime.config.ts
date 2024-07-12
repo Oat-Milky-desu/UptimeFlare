@@ -27,6 +27,12 @@ const workerConfig = {
       method: 'GET',
       target: 'https://www.google.com',
     },
+    {
+      id: 'Tencent_VPS',
+      name: 'Tencent Cloud',
+      method: 'TCP_PING',
+      target: '118.25.107.84:22',
+    },
   ],
   notification: {
     // [Optional] apprise API server URL
