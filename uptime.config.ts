@@ -21,6 +21,12 @@ const workerConfig = {
       method: 'GET',
       target: 'https://blog.oatmilky.top',
     },
+    {
+      id: 'Google_monitor',
+      name: 'Google',
+      method: 'GET',
+      target: 'https://www.google.com',
+    },
   ],
   notification: {
     // [Optional] apprise API server URL
