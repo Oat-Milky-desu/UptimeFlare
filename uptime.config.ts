@@ -18,13 +18,13 @@ const workerConfig = {
     {
       id: 'Blog_monitor',
       name: 'Blog',
-      method: 'GET',
+      method: 'POST',
       target: 'https://blog.oatmilky.top',
     },
     {
       id: 'Google_monitor',
       name: 'Google',
-      method: 'GET',
+      method: 'POST',
       target: 'https://www.google.com',
     },
     {
