@@ -25,6 +25,15 @@ const workerConfig = {
                },
     },
     {
+      id: 'My_Blog',
+      name: 'Blog',
+      method: 'GET',
+      target: 'https://blog.oatmilky.top',
+      headers: {
+                'User-Agent': 'Uptimeflare'
+               },
+    },
+    {
       id: 'Tencent_VPS',
       name: 'Tencent Cloud',
       method: 'TCP_PING',
