@@ -20,11 +20,12 @@ const workerConfig = {
       name: 'Personal Website',
       method: 'GET',
       target: 'https://oatmilky.top'
+    },
     {
       id: 'Tencent_VPS',
       name: 'Tencent Cloud',
       method: 'TCP_PING',
-      target: '118.25.107.84:22',
+      target: '118.25.107.84:22'
     },
   ],
   notification: {
